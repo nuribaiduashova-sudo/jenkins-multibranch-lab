@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Preparing project'
+                echo 'Building feature-demo branch'
             }
         }
         stage('Test') {
